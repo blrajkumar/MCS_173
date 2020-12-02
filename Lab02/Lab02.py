@@ -92,3 +92,17 @@ def __pass_retr():
         print("Not vaid username. Better luck next time!")
             
 #%%
+
+
+ def UpdateBooks(self,index,newTitle=None,replbook=None):
+        oldTitle = self.books[index].Title
+        if newTitle != None and replbook is None and type(newTitle) is int:
+            self.books[index].Title = newTitle
+        elif replbook !=None and newTitle is None :
+            self.books[index].Subject = replbook[0]
+            self.books[index].Title = replbook[1]
+            self.books[index].Publisher = replbook[2]
+            self.books[index].Year_of_publication = replbook[3]
+        elif replbook is None and newTitle is None:
+            print("Invalid no of arguments!")
+        return oldTitle

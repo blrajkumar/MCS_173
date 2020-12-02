@@ -55,7 +55,7 @@ print("\n"+eqsym+"\n\t\tRunning Function  - Check If Pronic\n"+eqsym+"\n")
 print("Case 01:\n\tFunc   --> check_if_pronic(2)")
 print("\tResult --> "+MyModule.check_if_pronic(2))
 
-print("\nCase 02:\n\tFunc   --> check_if_pronic(9)")
+print("\nCase 02:\n\tFunc   --> check_if_pronic(44)")
 print("\tResult --> "+MyModule.check_if_pronic(44))
 
 print("\nCase 03:\n\tFunc   --> check_if_pronic(72)")
